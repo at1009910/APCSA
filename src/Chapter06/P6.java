@@ -51,6 +51,14 @@ public class P6 {
 
     }
 
+    /**
+     * Method to return a certain value from a math problem based on the amount
+     * being converted
+     *
+     * @param dollars amount being converted
+     * @param exchangeRate conversion rate
+     * @return converted dollars
+     */
     public static double convert(double dollars, double exchangeRate) {
         if (dollars > 100) {
             return 0.95 * dollars * exchangeRate;
